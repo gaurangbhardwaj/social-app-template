@@ -1,0 +1,26 @@
+// @import "../node_modules/bootstrap/scss/bootstrap.scss"
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+$body-bg: #131319;
+$body-font-family: "Inter", sans-serif;
+
+body {
+  background-color: $body-bg;
+  font-family: $body-font-family;
+  color: #ffffff;
+}
+
+h1 {
+  color: #c5c7ca !important;
+  margin-bottom: 10px !important;
+}
+
+p {
+  color: #7f8084 !important;
+}
+
+.container {
+  max-width: 700px;
+  margin-top: 20px;
+}
